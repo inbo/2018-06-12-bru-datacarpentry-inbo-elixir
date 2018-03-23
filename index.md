@@ -696,6 +696,7 @@ eventbrite:           # optional: alphanumeric key for Eventbrite registration, 
     Instructors will provide a workaround for it if needed.</strong></p>
 </div> {% comment %} End of 'SQLite' section. {% endcomment %}
 
+<!--
 <div id="openrefine"> {% comment %} Start of 'OpenRefine' section. {% endcomment %}
   <h3>OpenRefine</h3>
   <p>
@@ -703,7 +704,8 @@ eventbrite:           # optional: alphanumeric key for Eventbrite registration, 
     web browser. <em>Note:</em> this is a Java program that runs on your machine (not in the cloud).
     It runs inside a web browser, but no web connection is needed.
   </p>
-
+-->
+<!--
   <div class="row">
     <div class="col-md-4">
       <h4 id="openrefine-windows">Windows</h4>
@@ -742,7 +744,7 @@ eventbrite:           # optional: alphanumeric key for Eventbrite registration, 
     </div>
   </div>
 </div> {% comment %} End of 'OpenRefine' section. {% endcomment %}
-
+-->
 {% comment %}
 <div id="vm">
   <h3>Virtual Machine</h3>
