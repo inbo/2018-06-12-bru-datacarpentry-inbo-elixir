@@ -125,7 +125,7 @@ eventbrite:           # optional: alphanumeric key for Eventbrite registration, 
   {% elsif page.carpentry == "lc" %}
   Library Carpentry's
   {% endif %}
-  <a href="{{site.dc_site}}/conduct.html">Code of Conduct</a>.
+  <a href="{{site.dc_site}}/code-of-conduct">Code of Conduct</a>.
 </p>
 
 {% comment %}
