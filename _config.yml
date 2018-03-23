@@ -6,7 +6,7 @@
 carpentry: "dc"
 
 # Overall title for pages.
-title: "Data Carpentry workshop Elixir Belgium / INBO"
+title: "Data Carpentry ElixirBE / INBO"
 
 # Contact email address.
 email: paula.martinez@elixir-belgium.org
@@ -20,6 +20,7 @@ kind: "workshop"
 
 # Magic to make URLs resolve both locally and on GitHub.
 # See https://help.github.com/articles/repository-metadata-on-github-pages/.
+# <USERNAME>/<PROJECT>
 repository: inbo/2018-06-12-bru-datacarpentry-inbo-elixir
 
 # Sites.
@@ -32,8 +33,8 @@ swc_pages: "https://swcarpentry.github.io"
 template_repo: "https://github.com/swcarpentry/styles"
 example_repo: "https://github.com/swcarpentry/lesson-example"
 example_site: "https://swcarpentry.github.com/lesson-example"
-workshop_repo: "https://github.com/swcarpentry/workshop-template"
-workshop_site: "https://swcarpentry.github.io/workshop-template"
+workshop_repo: "https://github.com/inbo/2018-06-12-bru-datacarpentry-inbo-elixir"
+workshop_site: "https://inbo.github.io/2018-06-12-bru-datacarpentry-inbo-elixir/"
 training_site: "https://swcarpentry.github.io/instructor-training"
 swc_installer: "https://github.com/swcarpentry/windows-installer/releases/download/v0.3/SWCarpentryInstaller.exe"
 
