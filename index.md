@@ -125,7 +125,7 @@ eventbrite:           # optional: alphanumeric key for Eventbrite registration, 
   {% elsif page.carpentry == "lc" %}
   Library Carpentry's
   {% endif %}
-  <a href="{{site.swc_site}}/conduct.html">Code of Conduct</a>.
+  <a href="{{site.dc_site}}/conduct.html">Code of Conduct</a>.
 </p>
 
 {% comment %}
@@ -224,6 +224,7 @@ eventbrite:           # optional: alphanumeric key for Eventbrite registration, 
 
 <hr/>
 
+
 {% comment %}
   SYLLABUS
 
@@ -241,8 +242,9 @@ eventbrite:           # optional: alphanumeric key for Eventbrite registration, 
   please preview your site before committing, and make sure to run
   'tools/check' as well.
 {% endcomment %}
+<!--
 <h2 id="syllabus">Syllabus</h2>
-
+-->
 {% if page.carpentry == "swc" %}
   {% include sc/syllabus.html %}
 {% elsif page.carpentry == "dc" %}
