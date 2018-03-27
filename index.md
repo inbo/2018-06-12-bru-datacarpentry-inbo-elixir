@@ -143,6 +143,10 @@ eventbrite:           # optional: alphanumeric key for Eventbrite registration, 
   <li>The room is wheelchair / scooter accessible.</li>
   <li>Accessible restrooms are available.</li>
 </ul>
+<p>
+  <strong>Registration:</strong><a href="http://www.vib.be/en/training/research-training/courses/Pages/Data-Carpentry-June-2018.aspx" target="_blank">Please register through the VIB website</a>
+	  
+</p>
 
 {% comment %}
   CONTACT EMAIL ADDRESS
@@ -188,8 +192,8 @@ eventbrite:           # optional: alphanumeric key for Eventbrite registration, 
 <p><a href="{{ site.swc_post_survey }}{{ site.github.project_title }}">Post-workshop Survey</a></p>
 {% elsif page.carpentry == "dc" %}
   <p>Please be sure to complete these surveys before and after the workshop.</p>
-<p><a href="{{ site.dc_pre_survey }}{{ site.github.project_title }}">Pre-workshop Survey</a></p>
-<p><a href="{{ site.dc_post_survey }}{{ site.github.project_title }}">Post-workshop Survey</a></p>
+<p><a target="_blank" href="{{ site.dc_pre_survey }}{{ site.github.project_title }}">Pre-workshop Survey</a></p>
+<p><a target="_blank" href="{{ site.dc_post_survey }}{{ site.github.project_title }}">Post-workshop Survey</a></p>
 {% elsif page.carpentry == "lc" %}
 <p>Ask your instructor about pre- and post-workshop Survey details.</p>
 {% endif %}
@@ -215,7 +219,7 @@ eventbrite:           # optional: alphanumeric key for Eventbrite registration, 
 {% endcomment %}
 {% if page.collaborative_notes %}
 <p id="collaborative_notes">
-  We will use this <a href="{{page.collaborative_notes}}">collaborative document</a> for chatting, taking notes, and sharing URLs and bits of code.
+  We will use this <a target="_blank" href="{{page.collaborative_notes}}">collaborative document</a> for chatting, taking notes, and sharing URLs and bits of code.
 </p>
 {% endif %}
 
@@ -284,9 +288,9 @@ eventbrite:           # optional: alphanumeric key for Eventbrite registration, 
   <div class="row">
     <div class="col-md-4">
       <h4 id="shell-windows">Windows</h4>
-      <a href="https://www.youtube.com/watch?v=339AEqk9c-8">Video Tutorial</a>
+      <a target="_blank" href="https://www.youtube.com/watch?v=339AEqk9c-8">Video Tutorial</a>
       <ol>
-        <li>Download the Git for Windows <a href="https://git-for-windows.github.io/">installer</a>.</li>
+        <li>Download the Git for Windows <a target="_blank" href="https://git-for-windows.github.io/">installer</a>.</li>
         <li>Run the installer and follow the steps bellow:
           <ol>
             {% comment %} Git 2.8.2 Setup {% endcomment %}
@@ -345,7 +349,7 @@ eventbrite:           # optional: alphanumeric key for Eventbrite registration, 
         need to install anything.  You access Bash from the Terminal
         (found in
         <code>/Applications/Utilities</code>).
-        See the Git installation <a href="https://www.youtube.com/watch?v=9LQhwETCdwY ">video tutorial</a>
+        See the Git installation <a target="_blank" href="https://www.youtube.com/watch?v=9LQhwETCdwY ">video tutorial</a>
         for an example on how to open the Terminal.
         You may want to keep
         Terminal in your dock for this workshop.
@@ -370,18 +374,18 @@ eventbrite:           # optional: alphanumeric key for Eventbrite registration, 
     Git is a version control system that lets you track who made changes
     to what when and has options for easily updating a shared or public
     version of your code
-    on <a href="https://github.com/">github.com</a>. You will need a
-    <a href="https://help.github.com/articles/supported-browsers/">supported</a>
+    on <a target="_blank" href="https://github.com/">github.com</a>. You will need a
+    <a target="_blank" href="https://help.github.com/articles/supported-browsers/">supported</a>
     web browser (current versions of Chrome, Firefox or Safari,
     or Internet Explorer version 9 or above).
   </p>
   <p>
-    You will need an account at <a href="https://github.com/">github.com</a>
+    You will need an account at <a target="_blank" href="https://github.com/">github.com</a>
     for parts of the Git lesson. Basic GitHub accounts are free. We encourage
     you to create a GitHub account if you don't have one already.
     Please consider what personal information you'd like to reveal. For
     example, you may want to review these
-    <a href="https://help.github.com/articles/keeping-your-email-address-private/">instructions
+    <a target="_blank" href="https://help.github.com/articles/keeping-your-email-address-private/">instructions
     for keeping your email address private</a> provided at GitHub.
   </p>
 
@@ -395,16 +399,16 @@ eventbrite:           # optional: alphanumeric key for Eventbrite registration, 
     </div>
     <div class="col-md-4">
       <h4 id="git-macosx">macOS</h4>
-      <a href="https://www.youtube.com/watch?v=9LQhwETCdwY ">Video Tutorial</a>
+      <a target="_blank" href="https://www.youtube.com/watch?v=9LQhwETCdwY ">Video Tutorial</a>
       <p>
         <strong>For OS X 10.9 and higher</strong>, install Git for Mac
         by downloading and running the most recent "mavericks" installer from
-        <a href="http://sourceforge.net/projects/git-osx-installer/files/">this list</a>.
+        <a target="_blank" href="http://sourceforge.net/projects/git-osx-installer/files/">this list</a>.
         After installing Git, there will not be anything in your <code>/Applications</code> folder,
         as Git is a command line program.
         <strong>For older versions of OS X (10.5-10.8)</strong> use the
         most recent available installer labelled "snow-leopard"
-        <a href="http://sourceforge.net/projects/git-osx-installer/files/">available here</a>.
+        <a target="_blank" href="http://sourceforge.net/projects/git-osx-installer/files/">available here</a>.
       </p>
     </div>
     <div class="col-md-4">
@@ -435,11 +439,11 @@ eventbrite:           # optional: alphanumeric key for Eventbrite registration, 
   <div class="row">
     <div class="col-md-4">
       <h4 id="editor-windows">Windows</h4>
-      <a href="https://www.youtube.com/watch?v=339AEqk9c-8">Video Tutorial</a>
+      <a target="_blank" href="https://www.youtube.com/watch?v=339AEqk9c-8">Video Tutorial</a>
       <p>
         nano is a basic editor and the default that instructors use in the workshop.
         To install it,
-        download the <a href="{{site.swc_installer}}">
+        download the <a target="_blank" href="{{site.swc_installer}}">
           {% if page.carpentry == "swc" %}
           Software Carpentry
           {% elsif page.carpentry == "dc" %}
@@ -454,8 +458,8 @@ eventbrite:           # optional: alphanumeric key for Eventbrite registration, 
       </p>
       <p>
         Others editors that you can use are
-        <a href="http://notepad-plus-plus.org/">Notepad++</a> or
-        <a href="http://www.sublimetext.com/">Sublime Text</a>.
+        <a target="_blank" href="http://notepad-plus-plus.org/">Notepad++</a> or
+        <a target="_blank" href="http://www.sublimetext.com/">Sublime Text</a>.
         <strong>Be aware that you must
           add its installation directory to your system path.</strong>
         Please ask your instructor to help you do this.
@@ -471,8 +475,8 @@ eventbrite:           # optional: alphanumeric key for Eventbrite registration, 
       </p>
       <p>
         Others editors that you can use are
-        <a href="http://www.barebones.com/products/textwrangler/">Text Wrangler</a> or
-        <a href="http://www.sublimetext.com/">Sublime Text</a>.
+        <a target="_blank" href="http://www.barebones.com/products/textwrangler/">Text Wrangler</a> or
+        <a target="_blank" href="http://www.sublimetext.com/">Sublime Text</a>.
       </p>
     </div>
     <div class="col-md-4">
@@ -483,9 +487,9 @@ eventbrite:           # optional: alphanumeric key for Eventbrite registration, 
       </p>
       <p>
         Others editors that you can use are
-        <a href="https://wiki.gnome.org/Apps/Gedit">Gedit</a>,
-        <a href="http://kate-editor.org/">Kate</a> or
-        <a href="http://www.sublimetext.com/">Sublime Text</a>.
+        <a target="_blank" href="https://wiki.gnome.org/Apps/Gedit">Gedit</a>,
+        <a target="_blank" href="http://kate-editor.org/">Kate</a> or
+        <a target="_blank" href="http://www.sublimetext.com/">Sublime Text</a>.
       </p>
     </div>
   </div>
@@ -499,11 +503,11 @@ eventbrite:           # optional: alphanumeric key for Eventbrite registration, 
   <h3>Python</h3>
 
   <p>
-    <a href="http://python.org">Python</a> is a popular language for
+    <a target="_blank" href="http://python.org">Python</a> is a popular language for
     research computing, and great for general-purpose programming as
     well.  Installing all of its research packages individually can be
     a bit difficult, so we recommend
-    <a href="https://www.anaconda.com/distribution/">Anaconda</a>,
+    <a target="_blank" href="https://www.anaconda.com/distribution/">Anaconda</a>,
     an all-in-one installer.
   </p>
 
@@ -525,19 +529,19 @@ eventbrite:           # optional: alphanumeric key for Eventbrite registration, 
 
   <div class="row">
     <div class="col-md-4">
-      <h4 id="python-windows">Windows</h4>
-      <a href="https://www.youtube.com/watch?v=xxQ0mzZ8UvA">Video Tutorial</a>
+      <h4 target="_blank" id="python-windows">Windows</h4>
+      <a target="_blank" href="https://www.youtube.com/watch?v=xxQ0mzZ8UvA">Video Tutorial</a>
       <ol>
-        <li>Open <a href="https://www.anaconda.com/download/#windows">https://www.anaconda.com/download/#windows</a> with your web browser.</li>
+        <li>Open <a target="_blank" href="https://www.anaconda.com/download/#windows">https://www.anaconda.com/download/#windows</a> with your web browser.</li>
         <li>Download the Python 3 installer for Windows.</li>
         <li>Install Python 3 using all of the defaults for installation <em>except</em> make sure to check <strong>Make Anaconda the default Python</strong>.</li>
       </ol>
     </div>
     <div class="col-md-4">
       <h4 id="python-macosx">macOS</h4>
-      <a href="https://www.youtube.com/watch?v=TcSAln46u9U">Video Tutorial</a>
+      <a target="_blank" href="https://www.youtube.com/watch?v=TcSAln46u9U">Video Tutorial</a>
       <ol>
-        <li>Open <a href="https://www.anaconda.com/download/#macos">https://www.anaconda.com/download/#macos</a> with your web browser.</li>
+        <li>Open <a target="_blank" href="https://www.anaconda.com/download/#macos">https://www.anaconda.com/download/#macos</a> with your web browser.</li>
         <li>Download the Python 3 installer for OS X.</li>
         <li>Install Python 3 using all of the defaults for installation.</li>
       </ol>
@@ -579,7 +583,7 @@ eventbrite:           # optional: alphanumeric key for Eventbrite registration, 
 {% comment %}
   <p>
   Once you are done installing the software listed above,
-  please go to <a href="setup/index.html">this page</a>,
+  please go to <a target="_blank" href="setup/index.html">this page</a>,
   which has instructions on how to test that everything was installed correctly.
   </p>
 {% endcomment %}
@@ -599,13 +603,13 @@ eventbrite:           # optional: alphanumeric key for Eventbrite registration, 
   <div class="row">
     <div class="col-md-4">
       <h4 id="r-windows">Windows</h4>
-      <a href="https://www.youtube.com/watch?v=q0PjTAylwoU">Video Tutorial</a>
+      <a target="_blank" href="https://www.youtube.com/watch?v=q0PjTAylwoU">Video Tutorial</a>
       <p>
         Install R by downloading and running
-        <a href="http://cran.r-project.org/bin/windows/base/release.htm">this .exe file</a>
+        <a target="_blank" href="http://cran.r-project.org/bin/windows/base/release.htm">this .exe file</a>
         from <a href="http://cran.r-project.org/index.html">CRAN</a>.
         Also, please install the
-        <a href="http://www.rstudio.com/ide/download/desktop">RStudio IDE</a>.
+        <a target="_blank" href="http://www.rstudio.com/ide/download/desktop">RStudio IDE</a>.
         Note that if you have separate user and admin accounts, you should run the 
         installers as administrator (right-click on .exe file and select "Run as 
         administrator" instead of double-clicking). Otherwise problems may occur later, 
@@ -614,24 +618,24 @@ eventbrite:           # optional: alphanumeric key for Eventbrite registration, 
     </div>
     <div class="col-md-4">
       <h4 id="r-macosx">macOS</h4>
-      <a href="https://www.youtube.com/watch?v=5-ly3kyxwEg">Video Tutorial</a>
+      <a target="_blank" href="https://www.youtube.com/watch?v=5-ly3kyxwEg">Video Tutorial</a>
       <p>
         Install R by downloading and running
-        <a href="http://cran.r-project.org/bin/macosx/R-latest.pkg">this .pkg file</a>
+        <a target="_blank" href="http://cran.r-project.org/bin/macosx/R-latest.pkg">this .pkg file</a>
         from <a href="http://cran.r-project.org/index.html">CRAN</a>.
         Also, please install the
-        <a href="http://www.rstudio.com/ide/download/desktop">RStudio IDE</a>.
+        <a target="_blank" href="http://www.rstudio.com/ide/download/desktop">RStudio IDE</a>.
       </p>
     </div>
     <div class="col-md-4">
       <h4 id="r-linux">Linux</h4>
       <p>
         You can download the binary files for your distribution
-        from <a href="http://cran.r-project.org/index.html">CRAN</a>. Or
+        from <a target="_blank" href="http://cran.r-project.org/index.html">CRAN</a>. Or
         you can use your package manager (e.g. for Debian/Ubuntu
         run <code>sudo apt-get install r-base</code> and for Fedora run
         <code>sudo dnf install R</code>).  Also, please install the
-        <a href="http://www.rstudio.com/ide/download/desktop">RStudio IDE</a>.
+        <a target="_blank" href="http://www.rstudio.com/ide/download/desktop">RStudio IDE</a>.
       </p>
     </div>
   </div>
@@ -643,7 +647,7 @@ eventbrite:           # optional: alphanumeric key for Eventbrite registration, 
   <p>
     SQL is a specialized programming language used with databases.  We
     use a simple database manager called
-    <a href="http://www.sqlite.org/">SQLite</a> in our lessons.
+    <a target="_blank" href="http://www.sqlite.org/">SQLite</a> in our lessons.
   </p>
 
   <div class="row">
@@ -679,7 +683,7 @@ eventbrite:           # optional: alphanumeric key for Eventbrite registration, 
   </div>
 
   <p><strong>If you installed Anaconda, it also has a copy of SQLite
-    <a href="https://github.com/ContinuumIO/anaconda-issues/issues/307">without support to <code>readline</code></a>.
+    <a target="_blank" href="https://github.com/ContinuumIO/anaconda-issues/issues/307">without support to <code>readline</code></a>.
     Instructors will provide a workaround for it if needed.</strong></p>
 </div> {% comment %} End of 'SQLite' section. {% endcomment %}
 
@@ -732,10 +736,11 @@ eventbrite:           # optional: alphanumeric key for Eventbrite registration, 
   </div>
 </div> {% comment %} End of 'OpenRefine' section. {% endcomment %}
 -->
+
 {% comment %}
+<!--
 <div id="vm">
   <h3>Virtual Machine</h3>
-
   <p>
     Some instructors prefer to have learners use a virtual machine (VM)
     rather than install software on their own computers.  If your
@@ -756,4 +761,5 @@ eventbrite:           # optional: alphanumeric key for Eventbrite registration, 
     </li>
   </ol>
 </div>
+-->
 {% endcomment %}
