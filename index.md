@@ -188,10 +188,9 @@ Please address your questions by email.
   to match your plans.  You may also want to change 'Day 1' and 'Day
   2' to be actual dates or days of the week.
 {% endcomment %}
-<h2 id="schedule">Schedule</h2>
+<h2 id="schedule">Surveys</h2>
 
 {% comment %} DO NOT EDIT SURVEY LINKS {% endcomment %}
-<p><em>Surveys</em></p>
 {% if page.carpentry == "swc" %} 
 <p>Please be sure to complete these surveys before and after the workshop.</p>
 <p><a href="{{ site.swc_pre_survey }}{{ site.github.project_title }}">Pre-workshop Survey</a></p>
@@ -204,6 +203,7 @@ Please address your questions by email.
 <p>Ask your instructor about pre- and post-workshop Survey details.</p>
 {% endif %}
 
+<h2 id="schedule">Schedule</h2>
 
 {% if page.carpentry == "swc" %}
   {% include sc/schedule.html %}
