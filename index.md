@@ -149,7 +149,7 @@ eventbrite:           # optional: alphanumeric key for Eventbrite registration, 
   <li>General academic/research public - 40€ </li>
   <li>VIB staff and PhD students - 40€ internal transfer</li>	
   <li>Industry staff - 100€ </li>
-  <li>Undergrad or Master students are welcome to apply for an scholarhip</li>
+  <li>Undergrad or Master students are welcome to apply for an scholarship</li>
 </ul>	
 Please address your questions by email.	
 </p>
