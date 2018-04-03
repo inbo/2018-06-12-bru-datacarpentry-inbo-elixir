@@ -144,12 +144,12 @@ eventbrite:           # optional: alphanumeric key for Eventbrite registration, 
   <li>Accessible restrooms are available.</li>
 </ul>
 <p>
-  <strong>Registration:</strong><a href="http://www.vib.be/en/training/research-training/courses/Pages/Data-Carpentry-June-2018.aspx" target="_blank">Please register through the VIB website</a>. We have four categories of registrations, prices are only to cover for catering. Prices include VAT.
+  <strong>Registration:</strong><a href="http://www.vib.be/en/training/research-training/courses/Pages/Data-Carpentry-June-2018.aspx" target="_blank"> Please register through the VIB website</a>. We have four categories of registrations, prices are only to cover for catering and all other expenses are sponsered by Elixir Belgium. Prices include VAT.
 <ul>
   <li>General academic/research public - 40€ </li>
   <li>VIB staff and PhD students - 40€ internal transfer</li>	
   <li>Industry staff - 100€ </li>
-  <li>Undergrad or Master students are welcome to apply for an stipend</li>
+  <li>Undergrad or Master students are welcome to apply for an scholarhip</li>
 </ul>	
 Please address your questions by email.	
 </p>
